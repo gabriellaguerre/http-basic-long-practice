@@ -70,26 +70,26 @@ Here's an example product on the server:
 | categories  | "beauty", "electronics"                                    |
 
 Request components:
-- Method:
-- URL:
-- Headers:
-- Body:
+- Method:GET
+- URL:/products/1
+- Headers:text/html
+- Body: html page of brush details
 
 Response components:
-- Status code:
+- Status code:200
 - Headers:
 - Body:
 
 ### Ask for the create new product page
 
 Request components:
-- Method:
-- URL:
-- Headers:
-- Body:
+- Method:Get
+- URL: /products/new
+- Headers:text/html;
+- Body:html page adding a new product
 
 Response components:
-- Status code:
+- Status code:200
 - Headers:
 - Body:
 
@@ -117,10 +117,10 @@ Here are the categories on the server:
 in the network tab as "payload".
 
 Request components:
-- Method:
-- URL:
-- Headers:
-- Body:
+- Method: POST
+- URL:/products
+- Headers:text/html
+- Body:html page successful creation
 
 Response components:
 - Status code:
